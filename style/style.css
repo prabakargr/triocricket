@@ -1,0 +1,186 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+	padding: 0;
+	background-color: #000000;
+}
+nav{
+	background-color: white;s
+}
+.navbar-dark .navbar-brand h2{
+	font-family: 'Oswald', sans-serif;
+	margin-top: 5%;
+	font-size: 35px;
+	font-weight: 400;
+}
+.navbar-dark .navbar-brand h2 span{
+	color: red;
+}
+.web_logo {
+	margin-left: 5px;
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+.signup_button{
+	margin-right: 5px;
+	background-color: #ffffff;
+	font-size: 13px;
+}
+.login_button{
+	background-color: #ffffff;
+	font-size: 13px;
+	font-weight: 700;
+	margin-right: 15px;
+}
+.signup_button a{
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
+}
+.login_button a{
+	color: black;
+	text-decoration: none;
+}
+.score_left_arrow{
+	padding-left: 0rem;
+	color: #007bff;
+}
+.score_right_arrow{
+	padding-right: 0rem;
+	color: #007bff;
+}
+.score_boards{             
+	margin: 0 0px;
+	padding: 7px 0;
+}
+.score_boards h3{
+	font-size: 0.95rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.score_boards div{
+	font-size: 0.8rem;
+}
+@media (max-width: 767px){
+	.score_boards{
+	text-align: center;	
+	}
+}
+@media (max-width: 575px){
+	 .web_logo{
+		width: 40px;
+		height: 40px;
+	}
+	.navbar-dark .navbar-brand h2{
+        margin-top: 5%;
+		font-size: 25px;
+	}
+}
+.appstore_button img{
+	width: 50px;
+	height: 50px;
+}
+@media (max-width: 575px){
+	.appstore_button img{
+		width: 20px;
+		height: 20px;
+	}
+	.appstore_button h4{
+		font-size: 12px;
+		font-weight: bold;
+	}
+}
+.carousel-inner,.carousel-item{
+	height: 500px;
+}
+.news_feed_records{
+	margin: 0 ;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.news_feed_records{
+	max-width: 100%;
+	border-bottom:1px solid #e1eaf5;
+}
+.news_feed_records h3{
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding-bottom: 16px;	
+}
+.news_feed_records p{
+	font-size: 14px;
+	text-align: justify;
+	line-height: 20px;
+
+}
+.news_feed_records ul li{
+	font-size: 14px;
+	text-align: justify;
+	line-height: 20px;
+}
+.news_feed_records ul{
+	padding-left: 18px;
+}
+.news_feed_records p a{
+	text-decoration: none;
+}
+.related_videos{
+	padding-top: 2%;
+}
+.related_videos h3{
+	font-size: 24px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+.related_videos p{
+	font-size: 14px;
+}
+@media (max-width: 767px){
+.carousel-inner,.carousel-item{
+	height: 50vh;
+	}
+}
+.foot_bottom{
+	background-color: #000000;
+	margin: 0;
+}
+.foot_bottom p{
+	color: #ffffff;
+	padding-top: 15px;
+}
+.foot_bottom p a{
+	padding-top: 15px;
+	color: #ffffff;
+	
+}
+@media (max-width: 575px){
+	.foot_bottom p{
+	text-align: center;
+	}
+}
+.for_mobile{
+	background-image: url(../imgs/indiateam.jpg);
+	height: 40vh;
+	background-size: 100% 100%;
+
+}
+.for_mobile_img1{
+	width: 35px;
+	height: 35px;
+	margin-left: 26%;
+}
+.for_mobile_img2{
+	width: 35px;
+	height: 35px;
+	margin-left: 26%;
+}
+.for_mobile h5{
+	padding-top:48%;
+	font-size: 15px;
+	color: #f1f1f1;
+	font-weight: 800; 
+}
